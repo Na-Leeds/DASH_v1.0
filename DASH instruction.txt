@@ -1,0 +1,15 @@
+Instruction for DASH model
+
+Run ‘Master_3D.m’ for simulation. There are four sections in the file. Please run these section in order. 
+
+In the first section, specify the directory of the programme, the name of case folder, and the name of output folder, and the name of input file. 
+
+Then, check the pixel dimension of any cross-section image from the output folder, and specify the following parameters in the second section: 
+1) H, the height of image in the number of pixels; 
+2) ImageDis, the width of image in the number of pixels; 
+3) INum, the number of cross sections;  
+4) trimEdge, the number of pixels that have been excluded for generating 3D images.  
+
+Run the thrid section, modelling results can be outputted as .txt file (ASCII or GSLib) in the output folder.
+
+Run the fourth section, fence diagram can be generated in the output folder. 
